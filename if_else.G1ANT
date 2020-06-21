@@ -1,0 +1,12 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+dialog.ask ‴Enter a digit (0-9):‴ result ♥input
+if ♥input=="1"
+   dialog ‴One‴
+  else if ♥input=="2"
+    dialog ‴Two‴
+  else if ♥input=="3"
+    dialog ‴Three‴
+  else
+    dialog ‴Invalid choice‴
+end
