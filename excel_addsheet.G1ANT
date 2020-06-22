@@ -1,0 +1,6 @@
+addon msoffice version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+excel.open path ♥environment⟦USERPROFILE⟧\Desktop\test.xlsx
+♥name= 2019 income
+excel.addsheet ♥name
