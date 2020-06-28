@@ -1,0 +1,31 @@
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+program cmd 
+delay 2
+keyboard ‴color 5E‴
+delay 2
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ‴title GIBBY‴
+delay 2
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ‴cd cypher‴
+delay 2
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ‴Cipher /E‴
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ‴netsh wlan set hostednetwork mode=allow ssid=CRUX key=password‴
+keyboard ⋘ENTER⋙
+keyboard ‴netsh wlan start hostednetwork‴
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ‴netsh wlan stop hostednetwork‴
+keyboard ⋘ENTER⋙
+delay 2
+keyboard ‴wmic product get name‴
+keyboard ⋘ENTER⋙
+delay 8
+keyboard ⋘ALT+F4⋙
