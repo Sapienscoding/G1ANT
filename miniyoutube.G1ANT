@@ -1,0 +1,18 @@
+addon selenium version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+selenium.open chrome url youtube.com
+window ✱chrome style maximize
+delay 2
+selenium.type ‴Marques Brownlee‴ search search_query by name
+delay 2
+selenium.presskey enter search search_query by name
+delay 5
+selenium.click search //*[@id="video-title"]/yt-formatted-string by xpath
+delay 10
+selenium.click search //*[@id="movie_player"]/div[26]/div[2]/div[3]/button[2] by xpath
+delay 10
+selenium.click search //*[@id="top-level-buttons"]/ytd-button-renderer[1]/a by xpath
+delay 10
+selenium.runscript script ‴window.alert("Thank You")‴
+
