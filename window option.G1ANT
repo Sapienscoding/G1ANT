@@ -1,0 +1,25 @@
+addon ui version 4.104.0.0
+addon core version 4.107.0.0
+addon language version 4.106.1.0
+dialog.ask ‴Enter option(1-3):‴ result ♥option
+if ♥option=="1"
+ui.click ‴/ui[@name='Taskbar']/ui[@name='Running applications']/ui[@id='E046963F.LenovoCompanion_k1h2ywk1493x8!App']‴
+delay 10
+keyboard ⋘TAB 13⋙
+keyboard ⋘PGDN 3⋙
+delay 2
+keyboard ⋘SPACE⋙
+else if ♥option=="2"
+ui.click ‴/ui[@name='Taskbar']/ui[@id='4113']‴
+delay 2
+keyboard ⋘ESC⋙
+else
+ui.click ‴/ui[@name='Taskbar']/ui[@name='Running applications']/ui[@id='SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify']‴
+window ✱spotify style maximize
+delay 2
+keyboard ⋘PGDN 2⋙
+delay 2
+keyboard ⋘TAB 9⋙⋘ENTER⋙
+delay 2
+keyboard ⋘TAB 2⋙⋘ENTER⋙
+end
